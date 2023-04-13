@@ -25,8 +25,7 @@ def create_message(sender, to, subject, name, cc):
     style = """
             .front {
                 font-size: 18px;
-                background: rgb(255,255,255);
-                background: linear-gradient(146deg, rgba(255,255,255,1) 0%, rgba(226,246,255,1) 100%);
+                background: azure;
                 padding: 20px;
                 border-radius: 25px;
             }
@@ -116,7 +115,7 @@ def main():
 
     # Your email and fixed paramters
     your_email = "FirstName LastName <email@email.com>"
-    cc = "cc@email.org" # Leave empty string if no cc
+    cc = "" # Leave empty string if no cc
     draft_subject = "Subject Matter"
 
     success = 0 # Counts the number of successes which will be reported at the end of program execution. 
