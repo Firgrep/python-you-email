@@ -22,6 +22,7 @@ To setup the python-you-upload project, here are the following guidelines:
         * On Windows using the Command Prompt: path\to\venv\Scripts\activate.bat
         * On Windows using PowerShell: path\to\venv\Scripts\Activate.ps1
 * Install requirements from file ```pip install -r requirements.txt```
+* Put the ```client_secrets.json``` from the Google APP Authentication (see above) file in the project directory. Make sure to shorten the filename to the exact one specified. 
 
 Preparing the script for your use
 * The script uses Pandas to load a list of names and emails from a .csv file. If you have an excel file or something else, just change the Pandas method ".read_scv" to what's needed. See Pandas documentation https://pandas.pydata.org/docs/
