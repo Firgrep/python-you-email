@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+lists/
+client_secret.json
+message.html
+outdated-script-email.py
+token.pickle
