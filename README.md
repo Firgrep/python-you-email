@@ -7,6 +7,12 @@ _Prerequisites_
 - This script requires a Gmail account from which to send the emails. 
 - OAuth2 authentication is required as well. See here for guidance: https://developers.google.com/youtube/registering_an_application
 - The scopes the script uses are: 'https://mail.google.com/', 'https://www.googleapis.com/auth/gmail.readonly', 'https://www.googleapis.com/auth/gmail.send', 'https://www.googleapis.com/auth/gmail.compose', so make sure those scopes are added this the app's authentication.
+```
+SCOPES = ['https://mail.google.com/',
+          'https://www.googleapis.com/auth/gmail.readonly', 
+          'https://www.googleapis.com/auth/gmail.send',
+          'https://www.googleapis.com/auth/gmail.compose']
+```
 - (TODO after cloning repo) In order to use the OAuth2 with this script, a client_secrets.json file is required that contains information from the API Console. The file should be in the same directory as the script. Once downloaded from the API console, move the .json file into the local script folder (same place as script.py) and rename it so "client_secret.json" - the script will look for a file with this exact name in the local directory.
 
 To setup the python-you-upload project, here are the following guidelines:
